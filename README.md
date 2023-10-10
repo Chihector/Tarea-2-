@@ -19,9 +19,8 @@ El código debe de tener al menos las siguientes funciones:
 * Evaluar la ruta generada por una hormiga
 
 Se deben ingresar y sintonizar los siguientes parámetros:
-
-* Archivo de entrada.
 * Valor semilla generador valores randómicos.
+* Archivo de entrada.
 * Tamaño de la colonia o número de hormigas.
 * Condición de término o número de iteraciones.
 * Factor de evaporación de la feromona (α).
@@ -29,12 +28,11 @@ Se deben ingresar y sintonizar los siguientes parámetros:
 * Valor de probabilidad límite (q0).
 
 ## Instalación
-Requisitos:
-* Python 3.8.10 disponible en sistema operativo.
+Requisitos: Python 3.8.10 disponible en sistema operativo.
 
 ## Ejecución
 Para ejecutar, escribir en consola o terminal:
-```
+```ruby
 py ColoniaHormigas.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <Factor_Evap> <Valor_Heur> <Prob_Limite>
 ```
 donde:
@@ -47,6 +45,6 @@ donde:
 * Prob_Limite: Valor entero entre 0 y 1 de probabilidad límite.
   
 ## Ejemplo
-```
-py ColoniaHormigas.py 1 burma14.txt 50 200 0.1 2.5 0.9
+```ruby
+py ColoniaHormigas.py 1 burma14.txt 50 100 0.2 2.5 0.8
 ```
