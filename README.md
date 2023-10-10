@@ -33,5 +33,17 @@ Requisitos:
 * Python 3.8.10 disponible en sistema operativo.
 
 ## Ejecución
-
+Para ejecutar, escribir en consola o terminal:
+py ColoniaHormigas.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <Factor_Evap> <Valor_Heur> <Prob_Limite>
+donde:
+* Semilla: Valor entero positivo que representa la semilla.
+* Archivo: Archivo de entrada con  coordenadas de los nodos de la matriz.
+* Tamaño_Pob: Valor entero que represneta el tamaño de la colonia o número de hormigas.
+* Iteraciones: Valor entero que rige número de iteraciones (condición de término).
+* Factor_Evap: Valor entero entre 0 y 1 que representa factor de evaporación de la feromona.
+* Valor_Heur: Valor entero entre 0 y 1 que representa el peso del valor de la heurística.
+* Prob_Limite: Valor entero entre 0 y 1 de probabilidad límite.
+  
 ## Ejemplo
+
+py ColoniaHormigas.py 1 burma14.txt 50 200 0.1 2.5 0.9
