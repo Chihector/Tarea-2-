@@ -148,4 +148,4 @@ while numIt > 0 and not np.round(solucionMejorCosto,decimals=4) == 7544.3659:
     print("Iteración: ",numIt)
     numIt -= 1
 #Mostrar mejor solución encontrada
-print("Costo mejor solución: ", np.round(solucionMejorCosto,decimals=4), "\nSolución: ", mejorSolucion)
+print("Costo de la mejor solución: ", np.round(solucionMejorCosto,decimals=4), "\nSolución: ", mejorSolucion)
