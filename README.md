@@ -34,7 +34,9 @@ Requisitos:
 
 ## Ejecución
 Para ejecutar, escribir en consola o terminal:
+```
 py ColoniaHormigas.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <Factor_Evap> <Valor_Heur> <Prob_Limite>
+```
 donde:
 * Semilla: Valor entero positivo que representa la semilla.
 * Archivo: Archivo de entrada con  coordenadas de los nodos de la matriz.
@@ -45,5 +47,6 @@ donde:
 * Prob_Limite: Valor entero entre 0 y 1 de probabilidad límite.
   
 ## Ejemplo
-
+```
 py ColoniaHormigas.py 1 burma14.txt 50 200 0.1 2.5 0.9
+```
