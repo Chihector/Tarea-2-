@@ -99,7 +99,7 @@ else:
 np.random.seed(semilla)
 
 # Leer las coordenadas de las ciudades desde el archivo
-archivo = pd.read_csv("burma14.txt", header=None, skiprows=6, skipfooter=1, engine='python', delim_whitespace=True, usecols=(1,2), dtype=int)
+archivo = pd.read_csv("berlin52.txt", header=None, skiprows=4, skipfooter=1, engine='python', delim_whitespace=True, dtype=int)
 matrizArchivo  = archivo.to_numpy()
 numVariables = matrizArchivo.shape[0]
 matrizDistancias = obtenerDistancias(numVariables,matrizArchivo)
