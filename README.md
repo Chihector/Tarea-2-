@@ -46,5 +46,5 @@ donde:
   
 ## Ejemplo
 ```ruby
-py ColoniaHormigas.py 1 burma14.txt 50 100 0.2 2.5 0.8
+py ColoniaHormigas.py 1 berlin52.opt.tour 50 100 0.2 2.5 0.8
 ```
